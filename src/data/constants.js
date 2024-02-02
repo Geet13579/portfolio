@@ -110,7 +110,7 @@ export const skills = [
     ],
   },
   {
-    title: "DevOps",
+    title: "Tools",
     skills: [
       {
         name: "AWS",
@@ -127,12 +127,6 @@ export const skills = [
         name: "Nginx",
         image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
       },
-    ],
-  },
- 
-  {
-    title: "Others",
-    skills: [
       {
         name: "Git",
         image:
@@ -143,6 +137,13 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
+    ],
+  },
+ 
+  {
+    title: "Others",
+    skills: [
+     
       {
         name: "Netlify",
         image:
