@@ -26,7 +26,17 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
+        name: "Next Js",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
         name: "Redux",
+        image:
+          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+      },
+      {
+        name: "Zustand",
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
@@ -41,6 +51,11 @@ export const skills = [
       },
       {
         name: "CSS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
+      {
+        name: "Tailwind CSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
@@ -161,7 +176,7 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
+    id: 3,
     img: "https://sensible-computers.com/assets/img/sensible_new_logo.jpg",
     role: "Vocational Training Certificate",
     company: "Software Solution (Sensible Computer)",
@@ -177,11 +192,11 @@ export const experiences = [
     doc: "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/vocational.jpg?alt=media&token=a059da6e-97b9-4be9-8a96-544a64d70dbf",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://prixso.com/wp-content/uploads/2020/09/new-logo-1234.png",
     role: "Software Engineering",
     company: "Prixso Software Pvt. Ltd.",
-    date: "1st May 2022 - 20th July 2023",
+    date: "Nov 2022 - July 2023",
     desc: "Working at Prixso Software Pvt. Ltd. was an enriching experience where I honed my skills, contributed to cutting-edge projects, and collaborated with a talented team to achieve technological excellence.",
     skills: [
       "AWS",
@@ -201,11 +216,11 @@ export const experiences = [
     doc: "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/1706696388594_doct1.pdf?alt=media&token=799ac1fc-c10a-422e-9a76-a91e993b4b44",
   },
   {
-    id: 2,
+    id: 1,
     img: "https://programmics.co.in/assets/images/programmics%20logo.png",
     role: "Software Engineering",
     company: "Programmics Technology",
-    date: "24 july 2023",
+    date: "July 2023 - Feb 2024",
     desc: "As a Software Engineer at Programmics Technology, I played a pivotal role in developing the Flipr Connect Platforms.I am proud to have been part of this project, contributing to the success of Programmics Technology through innovative solutions and effective collaboration within the Software Engineering team.",
     skills: [
       "AWS",
@@ -217,6 +232,31 @@ export const experiences = [
       "Cashfree Integration",
       "Firebase",
       "Figma",
+      "MongoDB",
+      "Redux",
+      "Material UI",
+
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Job%20Appointment%20Letter%20-%20Geetanjali%20Jangde%20-Programmics%20Technology.pdf?alt=media&token=3952bc88-2d08-466d-9a8e-2d3446e2a174",
+  },
+
+  {
+    id: 0,
+    img: "https://programmics.co.in/assets/images/programmics%20logo.png",
+    role: "Full Stack Developer",
+    company: "Beaming India Pvt. Ltd.",
+    date: "March 2024",
+    desc: "Beaming India is a privately held software company incorporated in Bangalore, India with its Design and Development facility primarily.",
+    skills: [
+      "AWS",
+      "Nginx",
+      "JavaScript",
+      "Node Js",
+      "React Js",
+      "Next Js",
+      "Tailiwnd CSS",
+      "Cashfree Integration",
+      "Firebase",
       "MongoDB",
       "Redux",
       "Material UI",
@@ -236,31 +276,111 @@ export const education = [
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Krishna Engineering College Khamaria, Bhilai. I have completed 8 semesters and have a CGPA of 8.66. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
-  {
-    id: 1,
-    img: "https://results.cg.nic.in/2023results/App_Themes/Images/cgbselogo.png",
-    school: "Govt. Higher Secondary School Anwari",
-    date: "Feb-March 2017",
-    grade: "65.8%",
-    desc: "I completed my class 12 high school education at Govt. Higher Secondary School, Anwari, where I studied Maths.",
-    degree: "(XII)",
-  },
-  {
-    id: 2,
-    img: "https://results.cg.nic.in/2023results/App_Themes/Images/cgbselogo.png",
-    school: "Govt. Higher Secondary School Anwari",
-    date: "March 2015",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Govt. Higher Secondary School, Anwari",
-    degree: "(X)",
-  },
+  
 ];
 
 export const projects = [
-   {
+
+  {
     id: 0,
+    title: "GST COMMERCIAL",
+    date: "",
+    description:
+      "Developed a web app where users can learn Commercial Tax.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Screenshot%202024-07-17%20111110.png?alt=media&token=7354694b-d366-4423-a314-d84592880768",
+    tags: ["Next Js", 'Tailwind CSS'],
+    category: "web app",
+    github: "",
+    webapp: "https://gst-commercial.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Nexify World",
+    date: "",
+    description:
+      "Nexify World addresses a critical yet frequently overlooked challenge in the B2B vehicle management sector. ",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Screenshot%202024-09-27%20160249.png?alt=media&token=25df8616-4fb7-45ce-bbef-c1668399f93b",
+    tags: ["Next Js", 'Tailwind CSS'],
+    category: "web app",
+    github: "",
+    webapp: "https://nexifyworld.com/",
+  },
+  {
+    id: 2,
+    title: "Zook Stay",
+    date: "",
+    description:
+      "For Hotel & Resorts - Unleash the Power of your very OWN Ecosystem, For Guests- Guaranteed BEST Prices Support Small Businesses with Big Dreams ",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Screenshot%202024-07-17%20111110.png?alt=media&token=7354694b-d366-4423-a314-d84592880768",
+    tags: ["Next Js", 'Tailwind CSS'],
+    category: "web app",
+    github: "",
+    webapp: "https://nexifyworld.com/",
+  },
+
+  {
+    id: 3,
+    title: "Xysto",
+    date: "",
+    description:
+      "Xysto Design transcends the conventional boundaries of an interior design company; we are the visionary creators of spaces that linger in the memory.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Screenshot%202024-09-27%20160328.png?alt=media&token=5382a95f-1739-46ea-9d41-152136fcac8f",
+    tags: ["Next Js", 'Tailwind CSS'],
+    category: "web app",
+    github: "",
+    webapp: "https://nexifyworld.com/",
+  },
+
+  {
+    id: 3,
+    title: "Schon",
+    date: "",
+    description:
+      "At Schons, we inspire you with our high-quality products that are created with inspiration. Every single design is created after conducting a proper inspection on the sites.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Screenshot%202024-09-27%20163915.png?alt=media&token=897dbf5f-2712-4c44-bdb3-93b8d3836aa9",
+    tags: ["Next Js", 'Tailwind CSS'],
+    category: "web app",
+    github: "",
+    webapp: "https://nexifyworld.com/",
+  },
+
+  {
+    id: 3,
+    title: "Politech Future Solution",
+    date: "",
+    description:
+      "Politech Future Solutions is a leading technology firm specializing in digital strategies for political campaigns.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Screenshot%20(10).png?alt=media&token=9a682a23-b8a5-43ab-bd89-1095b0bc87c1",
+    tags: ["Next Js", 'Tailwind CSS'],
+    category: "web app",
+    github: "",
+    webapp: "https://politech.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Effling Kids",
+    date: "",
+    description:
+      "Effling Kids makes it easy for young learners to improve their writing skills while exploring a world of fun-filled content.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Screenshot%202024-09-27%20163348.png?alt=media&token=24633814-5333-4eb9-91b1-2fb07d3e4a07",
+    tags: ["Next Js", 'Tailwind CSS'],
+    category: "app",
+    github: "",
+    webapp: "https://nexifyworld.com/",
+  },
+
+
+   {
+    id: 5,
     title: "Relaxation Arena",
-    date: "Apr 2023 - May 2023",
+    date: "",
     description:
       "A website booked online Appointment for body relax",
     image:
@@ -271,9 +391,9 @@ export const projects = [
     webapp: "https://relaxationarena.com/",
   },
   {
-    id: 1,
+    id: 6,
     title: "Todo List",
-    date: "Oct 2022 - Jan 2023",
+    date: "",
     description:
       "Designed and developed the Todo project, a project management app that helps maintained todo.",
     image:
@@ -289,7 +409,7 @@ export const projects = [
     webapp: "https://comfy-entremet-82cb41.netlify.app/",
   },
   {
-    id: 2,
+    id: 7,
     title: "Sorting Visualization",
     date: "",
     description:
@@ -303,95 +423,95 @@ export const projects = [
   },
 
 
-  {
-    id: 3,
-    title: "Zook stay",
-    date: "Jul 2024 - Jul 2024",
-    description:
-      "A website using user hotel registered",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Screenshot%202024-07-17%20110339.png?alt=media&token=7f746072-5b65-4508-9aab-d4952dfd5bf7",
-    tags: [
-      "Next Js",
-      "MySql",
-      "Node Js",
-      "Express Js",
-      "Tailwind css",
-    ],
-    category: "web app",
-    github: "#",
-    webapp: "https://partner.zookstay.com/",
-  },
-  {
-    id: 4,
-    title: "Zook stay",
-    date: "May 2024 - June 2024",
-    description:
-      "A website is GST commercial",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Screenshot%202024-07-17%20111110.png?alt=media&token=7354694b-d366-4423-a314-d84592880768",
-    tags: [
-      "Next Js",
-      "MySql",
-      "Node Js",
-      "Express Js",
-      "Tailwind css",
-    ],
-    category: "web app",
-    github: "#",
-    webapp: "https://grand-travesseiro-9f267b.netlify.app/",
-  },
-  {
-    id: 5,
-    title: "Dog Competition",
-    date: "",
-    description:
-      "A website is basically compition with many dogs show winner dog and also show structure of process",
-    image:
-      "",
-    tags: ["React Js", "Sqlite", "Node Js", "Express Js"],
-    category: "machine learning",
-    github: "https://github.com/Geet13579/dog_compition",
-    webapp: "",
+  // {
+  //   id: 3,
+  //   title: "Zook stay",
+  //   date: "Jul 2024 - Jul 2024",
+  //   description:
+  //     "A website using user hotel registered",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Screenshot%202024-07-17%20110339.png?alt=media&token=7f746072-5b65-4508-9aab-d4952dfd5bf7",
+  //   tags: [
+  //     "Next Js",
+  //     "MySql",
+  //     "Node Js",
+  //     "Express Js",
+  //     "Tailwind css",
+  //   ],
+  //   category: "web app",
+  //   github: "#",
+  //   webapp: "https://partner.zookstay.com/",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Zook stay",
+  //   date: "May 2024 - June 2024",
+  //   description:
+  //     "A website is GST commercial",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/virtual-plating-393407.appspot.com/o/Screenshot%202024-07-17%20111110.png?alt=media&token=7354694b-d366-4423-a314-d84592880768",
+  //   tags: [
+  //     "Next Js",
+  //     "MySql",
+  //     "Node Js",
+  //     "Express Js",
+  //     "Tailwind css",
+  //   ],
+  //   category: "web app",
+  //   github: "#",
+  //   webapp: "https://grand-travesseiro-9f267b.netlify.app/",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Dog Competition",
+  //   date: "",
+  //   description:
+  //     "A website is basically compition with many dogs show winner dog and also show structure of process",
+  //   image:
+  //     "",
+  //   tags: ["React Js", "Sqlite", "Node Js", "Express Js"],
+  //   category: "machine learning",
+  //   github: "https://github.com/Geet13579/dog_compition",
+  //   webapp: "",
     
-  },
+  // },
   
-  {
-    id: 6,
-    title: "Gym Website",
-    date: "",
-    description:
-      "A website that perform various fuction like purchasing gym plans, maintaining user plan data in admin panel, creating API link for app and maintained using PHP-MYSQL",
-    image:
-      "",
-    tags: [
-     "PHP",
-     "MySql",
-     "codeigniter"
-    ],
-    category: "web app",
-    github: "",
-    webapp: "https://crossfitzonegym.com/",
-  },
-  {
-    id: 7,
-    title: "Tiffinco",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A website maintained admin panel.Developed a flutter android app which has a function like provide tifin services online. Design single page of tifinco using mern stack link of webste",
-    image:
-      "",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "NodeMailer",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://tifinco.com/",
-  },
+  // {
+  //   id: 6,
+  //   title: "Gym Website",
+  //   date: "",
+  //   description:
+  //     "A website that perform various fuction like purchasing gym plans, maintaining user plan data in admin panel, creating API link for app and maintained using PHP-MYSQL",
+  //   image:
+  //     "",
+  //   tags: [
+  //    "PHP",
+  //    "MySql",
+  //    "codeigniter"
+  //   ],
+  //   category: "web app",
+  //   github: "",
+  //   webapp: "https://crossfitzonegym.com/",
+  // },
+  // {
+  //   id: 7,
+  //   title: "Tiffinco",
+  //   date: "Jun 2023 - Jul 2023",
+  //   description:
+  //     "A website maintained admin panel.Developed a flutter android app which has a function like provide tifin services online. Design single page of tifinco using mern stack link of webste",
+  //   image:
+  //     "",
+  //   tags: [
+  //     "React Js",
+  //     "MongoDb",
+  //     "Node Js",
+  //     "Express Js",
+  //     "NodeMailer",
+  //   ],
+  //   category: "web app",
+  //   github: "https://github.com/rishavchanda/Trackify",
+  //   webapp: "https://tifinco.com/",
+  // },
 
 ];
 

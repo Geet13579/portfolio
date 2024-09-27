@@ -35,7 +35,7 @@ function App() {
       <Router >
         <Navbar />
         <Body>
-          <ProfileSection />
+          {/* <ProfileSection /> */}
           <Wrapper>
             <Skills />
             <Experience />
